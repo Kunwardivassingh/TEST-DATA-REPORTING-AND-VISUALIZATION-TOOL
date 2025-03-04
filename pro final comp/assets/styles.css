@@ -1,0 +1,278 @@
+.auth-container {
+    display: flex;
+    height: 100vh;
+}
+
+.auth-left {
+    width: 50%;
+    background-color: #2f4f6a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.h2{
+    text-align: center;
+}
+.logo {
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+
+.illustration {
+    text-align: center;
+    color: white;
+}
+
+.illustration h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.illustration p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.auth-right {
+    width: 50%;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-card {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+}
+
+.auth-card h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.input-field {
+    margin-bottom: 20px;
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.form-check-input {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.auth-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+}
+
+.auth-btn:hover {
+    background-color: #0056b3;
+}
+
+.error-msg {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.login-text {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.login-link {
+    color: #007bff;
+    font-weight: bold;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}
+
+
+
+/* css for the upload file section  */
+
+/* assets/styles.css *//* General layout adjustments */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Left sidebar */
+.sidebar {
+    background-color: #263445; /* Same as the left side background */
+    color: #FFFFFF;
+    width: 250px; /* Adjust this to match the left side size */
+    height: 100vh; /* Occupy full height of the screen */
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.sidebar-logo{
+    width: 250px;
+}
+.sidebar .menu {
+    padding: 20px;
+}
+
+.sidebar .menu-item {
+    margin: 15px 0;
+}
+
+.sidebar .user-info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.user-info .username {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.user-info .logout-link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.logout-btn {
+    background-color: #d9534f;
+    color: white;
+    width: 100%;
+}
+/* Right section */
+.main-content {
+    margin-left: 250px; /* Offset for the sidebar */
+    padding: 40px;
+    background-color: #F6F8FB; /* Background for the right side */
+    height: 100vh;
+}
+.proceed-btn {
+    margin-top: 20px;
+    background-color: #00d8ff;
+    color: white;
+    align-content: center;
+}
+.upload-section {
+    background-color: #FFFFFF;
+    border: 2px dashed #CCCCCC;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.upload-section .upload-btn {
+    background-color: #1DCDFE;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.upload-section .upload-btn:hover {
+    background-color: #17b0e3;
+}
+
+.main-btn {
+    background-color: #0D6EFD;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.main-btn:hover {
+    background-color: #0056b3;
+}
+
+/* for the dashboard */
+/* Main Content */
+.main-content {
+    margin-left: 20%; /* Sidebar takes up 20% of the width */
+    padding: 20px;
+    background-color: #F7F7F7;
+}
+
+/* Stats Row */
+.stats-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.stat-card {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    width: 22%;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card h4 {
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.stat-card p {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Charts container */
+.charts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.chart {
+    width: 45%;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.custom-dropdown {
+    border-radius: 25px; /* Capsule shape */
+    padding: 10px; /* Inner padding */
+    margin: 10px 0; /* Space between filters */
+    font-size: 16px; /* Visible font size */
+    font-weight: 500; /* Font weight for visibility */
+    color: #333; /* Font color */
+    background-color: #ffffff; /* Background color */
+    border: 1px solid #ccc; /* Subtle border */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Modern shadow */
+}
+
+.custom-dropdown:hover {
+    border-color: #007bff; /* Hover effect */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.custom-dropdown option {
+    font-size: 16px; /* Ensure option text is readable */
+    color: #333;
+}
